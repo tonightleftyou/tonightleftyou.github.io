@@ -4,13 +4,34 @@
 h1 {
     margin-top: 25px;
     margin-bottom: 15px;
+    text-align: center;
+    font-size: 3em;
+    color: #9ec5c5;
 }
 p {
-    padding-left: 10px;
+    padding: 100px padding-left: 10px;
     padding-right: 10px;
-    width: 80%;
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30%;
+    overflow: hidden;
+    text-align: right;
     font-family: inherit;
-    color: aqua;
+    color: #557F80;
+    position: relative;
+    background-color: bisque;
+    
+}
+.box {
+
+    margin: 0 auto;
+    padding-bottom: 23px;
+    background-color:#91E6E6;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Microsoft-Yahei;
 }
 /*wow try*/
 .row {
@@ -19,8 +40,12 @@ p {
 /*desktop view*/
 @media (min-width: 992px) {
         .dv-1,.dv-2,.dv-3,.dv-4,.dv-5,.dv-6,.dv-7,.dv-8,.dv-9,.dv-10,.dv-11,.dv-12 {
-        float: left;
-        border: 1px solid green;
+           
+            padding: 10px;
+            margin-bottom: 10px;
+            float: left;
+            
+            
     }
     .dv-1 {
         width: 8.33%;
@@ -62,8 +87,10 @@ p {
 /*tablet view*/
 @media (min-width: 768px) and (max-width:991px) {
         .tv-1,.tv-2,.tv-3,.tv-4,.tv-5,.tv-6,.tv-7,.tv-8,.tv-9,.tv-10,.tv-11,.tv-12 {
-        float: left;
-        border: 1px solid green;
+            
+            padding: 10px;
+            margin-bottom: 10px;
+            float: left;
     }
     .tv-1 {
         width: 8.33%;
@@ -105,8 +132,11 @@ p {
 /*mobile view*/
 @media (max-width:967px) {
         .mv-1,.mv-2,.mv-3,.mv-4,.mv-5,.mv-6,.mv-7,.mv-8,.mv-9,.mv-10,.mv-11,.mv-12 {
-        float: left;
-        border: 1px solid green;
+            float: left;
+            
+            padding: 10px;
+            margin-bottom: 10px;
+        
     }
     .mv-1 {
         width: 8.33%;
