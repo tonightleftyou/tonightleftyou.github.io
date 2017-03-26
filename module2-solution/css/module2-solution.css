@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    font-family: inherit;
+    color: aqua;
+}
+/*wow try*/
+.row {
+    width: 100%;
+}
+/*desktop view*/
+@media (min-width: 992px) {
+        .dv-1,.dv-2,.dv-3,.dv-4,.dv-5,.dv-6,.dv-7,.dv-8,.dv-9,.dv-10,.dv-11,.dv-12 {
+        float: left;
+        border: 1px solid green;
+    }
+    .dv-1 {
+        width: 8.33%;
+    }
+    .dv-2 {
+        width: 16.66%;
+    }
+    .dv-3 {
+        width: 25%;
+    }
+    .dv-4 {
+        width: 33.33%;
+    }
+    .dv-5 {
+        width: 41.66%;
+    }
+    .dv-6 {
+        width: 50%;
+    }
+    .dv-7 {
+        width: 58.33%;
+    }
+    .dv-8 {
+        width: 66.66%;
+    }
+    .dv-9 {
+        width: 74.99%;
+    }
+    .dv-10 {
+        width: 83.33%;
+    }
+    .dv-11 {
+        width: 91.66%;
+    }
+    .dv-12 {
+        width: 100%;
+    }
+}
+/*tablet view*/
+@media (min-width: 768px) and (max-width:991px) {
+        .tv-1,.tv-2,.tv-3,.tv-4,.tv-5,.tv-6,.tv-7,.tv-8,.tv-9,.tv-10,.tv-11,.tv-12 {
+        float: left;
+        border: 1px solid green;
+    }
+    .tv-1 {
+        width: 8.33%;
+    }
+    .tv-2 {
+        width: 16.66%;
+    }
+    .tv-3 {
+        width: 25%;
+    }
+    .tv-4 {
+        width: 33.33%;
+    }
+    .tv-5 {
+        width: 41.66%;
+    }
+    .tv-6 {
+        width: 50%;
+    }
+    .tv-7 {
+        width: 58.33%;
+    }
+    .tv-8 {
+        width: 66.66%;
+    }
+    .tv-9 {
+        width: 74.99%;
+    }
+    .tv-10 {
+        width: 83.33%;
+    }
+    .tv-11 {
+        width: 91.66%;
+    }
+    .tv-12 {
+        width: 100%;
+    }
+}
+/*mobile view*/
+@media (max-width:967px) {
+        .mv-1,.mv-2,.mv-3,.mv-4,.mv-5,.mv-6,.mv-7,.mv-8,.mv-9,.mv-10,.mv-11,.mv-12 {
+        float: left;
+        border: 1px solid green;
+    }
+    .mv-1 {
+        width: 8.33%;
+    }
+    .mv-2 {
+        width: 16.66%;
+    }
+    .mv-3 {
+        width: 25%;
+    }
+    .mv-4 {
+        width: 33.33%;
+    }
+    .mv-5 {
+        width: 41.66%;
+    }
+    .mv-6 {
+        width: 50%;
+    }
+    .mv-7 {
+        width: 58.33%;
+    }
+    .mv-8 {
+        width: 66.66%;
+    }
+    .mv-9 {
+        width: 74.99%;
+    }
+    .mv-10 {
+        width: 83.33%;
+    }
+    .mv-11 {
+        width: 91.66%;
+    }
+    .mv-12 {
+        width: 100%;
+    }
+}
