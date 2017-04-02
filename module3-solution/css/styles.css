@@ -1,0 +1,157 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #62887C;
+    font-family: Microsoft-Yahei,sans-serif;
+    
+}
+/**HEADER**/
+#header-nav {
+    background-color:#2B2938;
+    border-radius: 0;
+    border: 0;
+/*    padding-bottom: 10px;*/
+}
+
+
+.navbar-brand {
+    padding-top: 25px;
+    
+    
+}
+.navbar-brand h1 {/*the big tittle*/
+    font-family: fantasy;
+    color:#EDFFAC;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+/*    margin-top: 10px;*/
+    text-decoration: none;
+    margin-bottom: 0px;
+    
+}
+#nav-list a {
+    color: #DCDA49;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -15px;
+}
+#nav-list a:hover {
+    background: #5F5B7B;
+    
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+/*icon bar style*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #62887C;
+}
+button.navbar-toggle.collapsed {
+    margin-top: 20px;
+}
+#collapsable-nav {
+    border-color: rgba(231, 231, 231, 0);
+}
+/**page home **/
+#boy1-tile, #boy2-tile, #boy3-tile {
+height: 250px;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid #FFF690;
+overflow: hidden;
+}
+#boy1-tile:hover, #boy2-tile:hover, #boy3-tile:hover {
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+#boy1-tile span, #boy2-tile span, #boy3-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+}
+/**tile's background img**/
+
+/********** Large devices only **********/
+@media (min-width: 993px) {
+#boy1-tile {
+    background:url(http://wx3.sinaimg.cn/large/ab4e268aly1fe79ut49ofj20a00ku42k.jpg)  no-repeat;
+    background-position: center;
+    background-position:0px 0px;
+}
+#boy2-tile {
+    background:url(http://wx3.sinaimg.cn/large/ab4e268aly1fe79ut49ofj20a00ku42k.jpg)  no-repeat;
+    background-position: center;
+}
+#boy3-tile {
+    background:url(http://wx3.sinaimg.cn/large/ab4e268aly1fe79ut49ofj20a00ku42k.jpg)  no-repeat;
+    background-position: center;
+    background-position:0px -500px;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+#boy1-tile {
+    background:url(http://wx3.sinaimg.cn/large/ab4e268aly1fe79ut49ofj20a00ku42k.jpg)  no-repeat;
+    background-position: center;
+    background-position:0px 0px;
+}
+#boy2-tile {
+    background:url(http://wx3.sinaimg.cn/large/ab4e268aly1fe79ut49ofj20a00ku42k.jpg)  no-repeat;
+    background-position: center;
+}
+#boy3-tile {
+    background:url(http://wx4.sinaimg.cn/large/ab4e268aly1fe7ag9u64hj20k00fmjw2.jpg)  no-repeat;
+    background-position: center;
+    height: 562px;
+}
+}
+@media (max-width: 767px) {
+#boy1-tile {
+    background:url(http://wx1.sinaimg.cn/large/ab4e268aly1fe7anyi6zkj20lb0kugtx.jpg)  no-repeat;
+    background-position: center;
+    background-position:0% 0%;
+}
+#boy2-tile {
+    background:url(http://wx1.sinaimg.cn/large/ab4e268aly1fe7anyi6zkj20lb0kugtx.jpg)  no-repeat;
+    background-position: center;
+    background-position:50% 50%;
+}
+#boy3-tile {
+    background:url(http://wx1.sinaimg.cn/large/ab4e268aly1fe7anyi6zkj20lb0kugtx.jpg)  no-repeat;
+    background-position: center;
+    background-position: 0px -500px;
+}
+}
+div#backtotop {
+    position: fixed;
+    bottom: 18px;
+    right: 12px;
+    text-align: center;
+    background-color: #F6FF68;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 1px solid #fff;
+}
+div#backtotop>a {
+    color: #62887;
+}

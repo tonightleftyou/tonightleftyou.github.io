@@ -21,7 +21,7 @@ p {
     color: #557F80;
     position: relative;
     background-color: bisque;
-    
+   
 }
 .box {
 
@@ -32,10 +32,12 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     font-family: Microsoft-Yahei;
+    float: left;
 }
 /*wow try*/
 .row {
     width: 100%;
+    float: left;
 }
 /*desktop view*/
 @media (min-width: 992px) {
