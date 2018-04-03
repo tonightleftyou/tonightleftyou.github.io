@@ -2101,7 +2101,7 @@ a {
 .sidebar-colored .sidebar-nav li:hover>a,
 .sidebar-colored .sidebar-nav li>a:hover {
     color: #e91e63;
-    background-color: #e0e0e0
+    background-color: #ffffff
 }
 .sidebar-colored .sidebar-nav li:hover>a i,
 .sidebar-colored .sidebar-nav li>a:hover i {
@@ -2120,7 +2120,7 @@ a {
 .sidebar-colored .sidebar-nav>.open>a:focus,
 .sidebar-colored .sidebar-nav>.open>a:hover {
     color: #e91e63;
-    background-color: #e0e0e0
+    background-color: #ffffff
 }
 .sidebar-colored .sidebar-nav>.active>a,
 .sidebar-colored .sidebar-nav>.active>a:focus,
@@ -2138,11 +2138,11 @@ a {
     background-color: #e0e0e0
 }
 .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
-    background-color: #e0e0e0;
+    background-color: #ffffff;
     color: #e91e63
 }
 .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover {
-    background-color: #cecece;
+    background-color: #ffffff;
     color: #e91e63
 }
 .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>.active>a,
