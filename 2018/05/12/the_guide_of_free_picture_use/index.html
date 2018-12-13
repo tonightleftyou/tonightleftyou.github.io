@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            免费图片使用指南 | 
+        
+        TLY的个人博客
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="保持对世界的好奇心">
+    <meta name="keywords" content=",工具分享">
+    <meta name="theme-color" content="#ffbcda">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?NZDA1CbLrNis+x2g+aBVEA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?lYk/JTy2YWBX1ZjIi02bXA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #f172a5;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #ffbcda !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #ffbcda !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #ffbcda !important;
+  }
+
+  .toTop {
+    background: #97d0ef !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #97d0ef;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #97d0ef;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #97d0ef;
+  }
+
+  .post-toc a:hover {
+    color: #f172a5;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="TLY的个人博客">
+    <meta name="msapplication-starturl" content="https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/">
+    <meta name="msapplication-navbutton-color" content="#ffbcda">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="TLY的个人博客">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="免费图片使用指南 | TLY的个人博客">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="保持对世界的好奇心">
+    <meta property="og:article:tag" content="工具分享"> 
+
+    
+        <meta property="article:published_time" content="Sat May 12 2018 19:35:56 GMT+0800">
+        <meta property="article:modified_time" content="Thu Dec 13 2018 10:47:57 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/index.html",
+    "headline": "免费图片使用指南",
+    "datePublished": "Sat May 12 2018 19:35:56 GMT+0800",
+    "dateModified": "Thu Dec 13 2018 10:47:57 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "TLY",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://wx4.sinaimg.cn/mw690/006RSAf8ly8fgt6m7uhqxj30fs0fsmy7.jpg"
+        },
+        "description": "好好学习，天天向上"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TLY的个人博客",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",工具分享",
+    "description": "保持对世界的好奇心",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+        
+            <style> #scheme-Paradox .material-layout .material-layout__content {
+padding-top: 48px;
+} #scheme-Paradox .post_entry-module {
+margin-bottom: 24px;
+} #scheme-Paradox .mdl-mini-footer { margin-top: 48px; padding: 20px; height: 90px; } </style>
+        
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#创作共用许可证（Creative-Commons-licenses）"><span class="post-toc-number">1.</span> <span class="post-toc-text">创作共用许可证（Creative Commons licenses）</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#一些需要强调的概念"><span class="post-toc-number">2.</span> <span class="post-toc-text">一些需要强调的概念</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#CC0图库"><span class="post-toc-number">3.</span> <span class="post-toc-text">CC0图库</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#librestock"><span class="post-toc-number">3.0.1.</span> <span class="post-toc-text">librestock</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#CC0-免費圖庫搜尋引擎"><span class="post-toc-number">3.0.2.</span> <span class="post-toc-text">CC0 免費圖庫搜尋引擎</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#flickr按着cc分类"><span class="post-toc-number">3.0.3.</span> <span class="post-toc-text">flickr按着cc分类</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#visualhunt"><span class="post-toc-number">3.0.4.</span> <span class="post-toc-text">visualhunt</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#polayoutu"><span class="post-toc-number">3.0.5.</span> <span class="post-toc-text">polayoutu</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#ISO-Republic"><span class="post-toc-number">3.0.6.</span> <span class="post-toc-text">ISO Republic</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#foter"><span class="post-toc-number">3.0.7.</span> <span class="post-toc-text">foter</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#picup-me"><span class="post-toc-number">3.0.8.</span> <span class="post-toc-text">picup.me</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#pexels"><span class="post-toc-number">3.0.9.</span> <span class="post-toc-text">pexels</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#pixabay"><span class="post-toc-number">3.0.10.</span> <span class="post-toc-text">pixabay</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#stocksnap"><span class="post-toc-number">3.0.11.</span> <span class="post-toc-text">stocksnap</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#mmtstock"><span class="post-toc-number">3.0.12.</span> <span class="post-toc-text">mmtstock</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#littlevisuals"><span class="post-toc-number">3.0.13.</span> <span class="post-toc-text">littlevisuals</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#freelyphotos"><span class="post-toc-number">3.0.14.</span> <span class="post-toc-text">freelyphotos</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#negativespace"><span class="post-toc-number">3.0.15.</span> <span class="post-toc-text">negativespace</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#freenaturestock"><span class="post-toc-number">3.0.16.</span> <span class="post-toc-text">freenaturestock</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#fotograts"><span class="post-toc-number">3.0.17.</span> <span class="post-toc-text">fotograts</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#magdeleine"><span class="post-toc-number">3.0.18.</span> <span class="post-toc-text">magdeleine</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#snapwiresnaps"><span class="post-toc-number">3.0.19.</span> <span class="post-toc-text">snapwiresnaps</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#freeimages"><span class="post-toc-number">3.0.20.</span> <span class="post-toc-text">freeimages</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#foodiesfeed"><span class="post-toc-number">3.0.21.</span> <span class="post-toc-text">foodiesfeed</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#cupcake"><span class="post-toc-number">3.0.22.</span> <span class="post-toc-text">cupcake</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#jaymantri"><span class="post-toc-number">3.0.23.</span> <span class="post-toc-text">jaymantri</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#public-domain-pictures"><span class="post-toc-number">3.0.24.</span> <span class="post-toc-text">public domain pictures</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#moveast"><span class="post-toc-number">3.0.25.</span> <span class="post-toc-text">moveast</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#finda"><span class="post-toc-number">3.0.26.</span> <span class="post-toc-text">finda</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考资料"><span class="post-toc-number">4.</span> <span class="post-toc-text">参考资料</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#一些需要仔细斟酌的图库"><span class="post-toc-number">5.</span> <span class="post-toc-text">一些需要仔细斟酌的图库</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#barnimages——以这个网站举例"><span class="post-toc-number">5.0.1.</span> <span class="post-toc-text">barnimages——以这个网站举例</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#png透明网（需要翻山越岭）——举例"><span class="post-toc-number">5.0.2.</span> <span class="post-toc-text">png透明网（需要翻山越岭）——举例</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考资料-1"><span class="post-toc-number">6.</span> <span class="post-toc-text">参考资料</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                免费图片使用指南
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="http://wx4.sinaimg.cn/mw690/006RSAf8ly8fgt6m7uhqxj30fs0fsmy7.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>TLY</strong>
+        <span>5月 12, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/工具分享/">工具分享</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=免费图片使用指南&url=https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/index.html&pic=https://tonightleftyou.github.io/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=免费图片使用指南&url=https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/index.html&via=TLY" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>本文绝大多数文字只是诸多网络文章的收集整理合集，所有参考资料见文末引用</p>
+<p>需要说明的是，本文适合的阅读对象多为<strong>设计师</strong>。</p>
+</blockquote>
+<h1 id="创作共用许可证（Creative-Commons-licenses）"><a href="#创作共用许可证（Creative-Commons-licenses）" class="headerlink" title="创作共用许可证（Creative Commons licenses）"></a>创作共用许可证（Creative Commons licenses）</h1><blockquote>
+<p>cc本身也是迭代发展的，最新版本4.0适用于全球，本文基于4.0整理。</p>
+<p>当图片选择了cc族协议的时候，作为使用者只需要按着协议就可以得到相应的权利。</p>
+</blockquote>
+<p><img src="https://upload-images.jianshu.io/upload_images/2099692-c10b30c101493a6d.png" alt=""></p>
+<p>cc族的协议相对是比较完备的，也具有严谨的法律条文。因此在使用/上传 作品的使用，看清楚cc协议的相应内容是非常重要的。</p>
+<h1 id="一些需要强调的概念"><a href="#一些需要强调的概念" class="headerlink" title="一些需要强调的概念"></a>一些需要强调的概念</h1><ul>
+<li>绝大多数情况下，即便是cc0也不保证就真的可以随便乱来。比如一张拍摄了自家女儿坐在奥迪汽车的照片，作者本身采用cc0，不代表你可以声称这张照片是你拍摄的。</li>
+<li>其次因为有人物，这可能需要额外的肖像权和隐私权。——特别当你把图片放入一个引人不适的情境中。</li>
+<li>还因为有奥迪这个商标/专利,也需要更加注意使用方式，避免风险。</li>
+</ul>
+<h1 id="CC0图库"><a href="#CC0图库" class="headerlink" title="CC0图库"></a>CC0图库</h1><ul>
+<li><h3 id="librestock"><a href="#librestock" class="headerlink" title="librestock"></a><a href="https://librestock.com/license/" target="_blank" rel="noopener">librestock</a></h3><blockquote>
+<p>一键搜索40+网站的CC0许可图片，点击跳转到其网站确认许可再下载。</p>
+</blockquote>
+</li>
+<li><h3 id="CC0-免費圖庫搜尋引擎"><a href="#CC0-免費圖庫搜尋引擎" class="headerlink" title="CC0 免費圖庫搜尋引擎"></a><a href="https://cc0.wfublog.com/" target="_blank" rel="noopener">CC0 免費圖庫搜尋引擎</a></h3><blockquote>
+<p>需要注意的地方為，CC0 雖然原作者放棄了著作相關權利，但不代表可以將著作權佔為己有，不可將圖片下載、或經過編修後，逕自宣稱「我才是圖片的原創者」，或「版權所有請勿盜用」之類。</p>
+<p>宣告 CC0 的作者是值得尊敬的，他們無償的分享使我們節省了寶貴的時間、不必重新設計發想。如果覺得從網路的分享得到了些許益處，不妨也以我們的分享作為回饋，讓這個正面的良性循環能持續下去。 </p>
+<p>为何需要cco图库?<a href="https://www.wfublog.com/2015/04/cc0-free-high-quality-image-collection.html" target="_blank" rel="noopener">附带大量cco图库网址</a></p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><h3 id="flickr按着cc分类"><a href="#flickr按着cc分类" class="headerlink" title="flickr按着cc分类"></a><a href="https://www.flickr.com/creativecommons/" target="_blank" rel="noopener">flickr按着cc分类</a></h3><blockquote>
+<p>每一张图片下方都会清晰的标清楚使用限制。</p>
+</blockquote>
+</li>
+<li><h3 id="visualhunt"><a href="#visualhunt" class="headerlink" title="visualhunt"></a><a href="https://visualhunt.com/" target="_blank" rel="noopener">visualhunt</a></h3><blockquote>
+<p>354,191,553 Creative Commons Photos，<br>  135,794 CC0 - 100% Free High Quality Photos</p>
+</blockquote>
+</li>
+<li><h3 id="polayoutu"><a href="#polayoutu" class="headerlink" title="polayoutu"></a><a href="http://www.polayoutu.com/collections" target="_blank" rel="noopener">polayoutu</a></h3><blockquote>
+<p>泼辣有图是摄影人发起的公开创源活动。泼辣有图的贡献者将他们的作品 <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">授权CC0协议</a>, 即允许任何人免费将图片用于任何用途。</p>
+</blockquote>
+</li>
+<li><h3 id="ISO-Republic"><a href="#ISO-Republic" class="headerlink" title="ISO Republic"></a><a href="https://isorepublic.com/" target="_blank" rel="noopener">ISO Republic</a></h3><blockquote>
+<p>ISO Republic provides free stock photos for creative professionals. Since launch, we’ve published over 3,000 CC0 licensed images.</p>
+</blockquote>
+</li>
+<li><h3 id="foter"><a href="#foter" class="headerlink" title="foter"></a><a href="https://foter.com/" target="_blank" rel="noopener">foter</a></h3><blockquote>
+<p>FOTOR supprts search,And host over 220 million free Creative Commons images from many online sources</p>
+</blockquote>
+</li>
+<li><h3 id="picup-me"><a href="#picup-me" class="headerlink" title="picup.me"></a><a href="http://picup.me/" target="_blank" rel="noopener">picup.me</a></h3><blockquote>
+<p>PicUp.me 是一个免费商业图片分享网站，这里收集了40余个网站超过30000副免费图片(<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.zh" target="_blank">Creative Commons Zero</a>)。</p>
+</blockquote>
+</li>
+<li><h3 id="pexels"><a href="#pexels" class="headerlink" title="pexels"></a><a href="https://www.pexels.com/photo-license/" target="_blank" rel="noopener">pexels</a></h3><blockquote>
+<p>all photos on Pexels are licensed under the Creative Commons Zero (CC0) license. </p>
+</blockquote>
+</li>
+<li><h3 id="pixabay"><a href="#pixabay" class="headerlink" title="pixabay"></a><a href="https://pixabay.com/zh/" target="_blank" rel="noopener">pixabay</a></h3><blockquote>
+<p>几乎都是CCO，每一张图片下载的时候都可以看到清楚的许可</p>
+</blockquote>
+</li>
+<li><h3 id="stocksnap"><a href="#stocksnap" class="headerlink" title="stocksnap"></a><a href="https://stocksnap.io/license" target="_blank" rel="noopener">stocksnap</a></h3><blockquote>
+<p>That’s why every single image on StockSnap are governed exclusively by the generous terms of the <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 license</a>.</p>
+</blockquote>
+</li>
+<li><h3 id="mmtstock"><a href="#mmtstock" class="headerlink" title="mmtstock"></a><a href="https://mmtstock.com/" target="_blank" rel="noopener">mmtstock</a></h3><blockquote>
+<p>Free photos and videos are licensed under a CC0 (CC0 1.0 Universal) license. They can be freely downloaded, used, and redistributed for both personal and commercial purposes.</p>
+</blockquote>
+</li>
+<li><h3 id="littlevisuals"><a href="#littlevisuals" class="headerlink" title="littlevisuals"></a><a href="http://littlevisuals.co/" target="_blank" rel="noopener">littlevisuals</a></h3><blockquote>
+<p>Sign up to get 7 hi-res images zipped up in your inbox.<a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank"> Use them anyway you want.</a></p>
+</blockquote>
+</li>
+<li><h3 id="freelyphotos"><a href="#freelyphotos" class="headerlink" title="freelyphotos"></a><a href="https://freelyphotos.com/" target="_blank" rel="noopener">freelyphotos</a></h3><blockquote>
+<p>All photos are published under the amazing <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank"> ‘CC0 license’ </a>.  Do what you want with them!</p>
+</blockquote>
+</li>
+<li><h3 id="negativespace"><a href="#negativespace" class="headerlink" title="negativespace"></a><a href="https://negativespace.co/" target="_blank" rel="noopener">negativespace</a></h3><blockquote>
+<p>all of our CC0 licensed images are completely free to use!</p>
+</blockquote>
+</li>
+<li><h3 id="freenaturestock"><a href="#freenaturestock" class="headerlink" title="freenaturestock"></a><a href="http://freenaturestock.com/" target="_blank" rel="noopener">freenaturestock</a></h3><blockquote>
+<p>All photos published on Free Nature Stock are licensed under Creative Commons Zero. You are free to use the photos however you want, even in commercial work, without the need for permission or attribution. In short: do whatever you want.</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><h3 id="fotograts"><a href="#fotograts" class="headerlink" title="fotograts"></a><a href="http://fotograts.lucrations.com/" target="_blank" rel="noopener">fotograts</a></h3><blockquote>
+<p>Free Majestic Stock Photos. CC0<br>Use them anyway you want.Subscribe to get free images in your inbox.</p>
+</blockquote>
+</li>
+<li><h3 id="magdeleine"><a href="#magdeleine" class="headerlink" title="magdeleine"></a><a href="https://magdeleine.co/license/cc0/" target="_blank" rel="noopener">magdeleine</a></h3><blockquote>
+<p>这个网站除了cco还有<a href="https://magdeleine.co/license/unsplash-license/" title="Browse only Unsplash photos" target="_blank" rel="noopener">Unsplash (do whatever you want)</a>以及<a href="https://magdeleine.co/license/attribution-required/" title="Browse attribution required photos" target="_blank" rel="noopener">Attribution Required</a> 这两种许可。</p>
+<p>前着是一个著名的网站，许可和cc0非常类似，但仍需你亲自查看是否符合你的需求。后者为CC BY（仅仅需要署名）</p>
+</blockquote>
+</li>
+<li><h3 id="snapwiresnaps"><a href="#snapwiresnaps" class="headerlink" title="snapwiresnaps"></a><a href="http://snapwiresnaps.tumblr.com/" target="_blank" rel="noopener">snapwiresnaps</a></h3><blockquote>
+<p>每张图片左下角都有下载链接以及许可，普遍采用cc1.0</p>
+</blockquote>
+</li>
+<li><h3 id="freeimages"><a href="#freeimages" class="headerlink" title="freeimages"></a><a href="https://freeimages.tumblr.com/" target="_blank" rel="noopener">freeimages</a></h3><blockquote>
+<p> one of the largest database for finding high quality free images with the Creative Commons Public Domain CC0. All photos are very for personal and commercial use, without any attributions. Search, find, upload and donwload greate pictures for your Design Projects Try it out here: <a href="https://freeimages.red" target="_blank" rel="noopener"> freeimages.red</a></p>
+</blockquote>
+</li>
+<li><h3 id="foodiesfeed"><a href="#foodiesfeed" class="headerlink" title="foodiesfeed"></a><a href="https://www.foodiesfeed.com/" target="_blank" rel="noopener">foodiesfeed</a></h3><blockquote>
+<p>All photos published on Foodiesfeed are licensed under the Creative Commons Zero (CCO) license which means you can copy, modify, distribute and use the photos for free, including commercial purposes. </p>
+<p>这个网站的都是吃的，超级好看超级好看。</p>
+</blockquote>
+</li>
+<li><h3 id="cupcake"><a href="#cupcake" class="headerlink" title="cupcake"></a><a href="http://cupcake.nilssonlee.se/" target="_blank" rel="noopener">cupcake</a></h3><blockquote>
+<p>All photos here on <a href="http://www.cupcake.nilssonlee.se" target="_blank" rel="noopener">www.cupcake.nilssonlee.se</a> are licensed under the Creative Commons license CC0</p>
+</blockquote>
+</li>
+<li><h3 id="jaymantri"><a href="#jaymantri" class="headerlink" title="jaymantri"></a><a href="http://jaymantri.com/" target="_blank" rel="noopener">jaymantri</a></h3><blockquote>
+<p>free pics. do anything <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">(CC0)</a>. make magic.</p>
+</blockquote>
+</li>
+<li><h3 id="public-domain-pictures"><a href="#public-domain-pictures" class="headerlink" title="public domain pictures"></a><a href="https://www.publicdomainpictures.net/en/" target="_blank" rel="noopener">public domain pictures</a></h3><blockquote>
+<p>免费用户有限制不能下到原始分辨率，不过1900px是没问题的，一般也够用了。而且也是cc0授权。</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><h3 id="moveast"><a href="#moveast" class="headerlink" title="moveast"></a><a href="http://moveast.me/" target="_blank" rel="noopener">moveast</a></h3><blockquote>
+<p>This is a journey of a Portuguese guy moving that decided that every photo should be used for free. Help yourselves and use them wherever you want (CC0)</p>
+</blockquote>
+</li>
+<li><h3 id="finda"><a href="#finda" class="headerlink" title="finda"></a><a href="http://finda.photo/" target="_blank" rel="noopener">finda</a></h3><blockquote>
+<p>Search through thousands of free (CC0 licensed) stock photos</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>太多了，不整理了。</p>
+<p>基本上你看到这里。但其实前10个基本够用了，日常用超不过5个。</p>
+<p>基本上只针对网站的cc0版权声明列出来了，一些其他的诸如图片质量/风格偏好/图片范围，建议个人按着自己的使用习惯对网站分类。</p>
+</blockquote>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%89%B5%E4%BD%9C%E5%85%B1%E7%94%A8%E6%8E%88%E6%AC%8A%E6%A2%9D%E6%AC%BE" target="_blank" rel="noopener">知识共享许可协议-WIKI</a></li>
+<li><a href="https://creativecommons.org/licenses/" target="_blank" rel="noopener">关于许可协议-官方</a></li>
+<li><a href="https://creativecommons.org/choose/" target="_blank" rel="noopener">在线选择适合你的许可协议-官方</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/20641764" target="_blank" rel="noopener">“知识共享”（CC协议）简单介绍-知乎</a></li>
+<li><a href="https://www.zhihu.com/question/29796814" target="_blank" rel="noopener">CC0许可协议是什么-知乎</a></li>
+</ul>
+<h1 id="一些需要仔细斟酌的图库"><a href="#一些需要仔细斟酌的图库" class="headerlink" title="一些需要仔细斟酌的图库"></a>一些需要仔细斟酌的图库</h1><h3 id="barnimages——以这个网站举例"><a href="#barnimages——以这个网站举例" class="headerlink" title="barnimages——以这个网站举例"></a><a href="https://barnimages.com/" target="_blank" rel="noopener">barnimages</a>——以这个网站举例</h3><blockquote>
+<p>严格来说，很多友好的图库（很接近cc0），本身会另外采取「自己网站的许可」，可以说是内容五花八门。基本上要求你使用的时候细细阅读。</p>
+</blockquote>
+<p>有趣的是早期他们采用的是cco协议，<br><a href="https://barnimages.com/license/" target="_blank" rel="noopener">现在的许可</a>不在cc0下，但是，实际使用中已经很接近了。</p>
+<p>如果查看现在的许可可以发现和cc0不同之处：</p>
+<blockquote>
+<p>你可以打印/洗照片，自用送人都ok，但是不能「转售」</p>
+<p>如果用来印刷到杯子/T恤上，需要额外的许可证。</p>
+<p>不能出售/子分发 图片</p>
+</blockquote>
+<p>总结起来就是<strong>「你不能把我们的辛勤无私当做你自己的功劳」</strong></p>
+<blockquote>
+<p>估计是有人把人家作者辛苦拍摄的作品随便打包分发/卖图包了吧。</p>
+<p>又或者搞堆T恤，脑子都不动一下印上去就是潮牌原创了。</p>
+</blockquote>
+<p>总之，这个网站是很好的，在你清晰明白的明白网站的限制的前提下（实在搞不懂发邮件问）大胆的用。</p>
+<h3 id="png透明网（需要翻山越岭）——举例"><a href="#png透明网（需要翻山越岭）——举例" class="headerlink" title="png透明网（需要翻山越岭）——举例"></a><a href="http://pngimg.com" target="_blank" rel="noopener">png透明网</a>（需要翻山越岭）——举例</h3><blockquote>
+<p>本网站被广大电商设计师称为业内良心，每每使用，泪流满面。</p>
+</blockquote>
+<p>网站采用的<a href="http://pngimg.com/about" target="_blank" rel="noopener">协议</a>，只要求署名，不让商用。但是允许修改。</p>
+<blockquote>
+<p>本许可协议允许其他人再混合、调整、基于您的作品进行非商业性创作。尽管他们的新作品必须署您的名并要出于非商业性目的，他们不必依据相同条款许可他们的演绎作品。 </p>
+</blockquote>
+<p>作为电商设计师会怎么用这个网站呢？毕竟网站可是强调了「为那些<strong>要工作</strong>的设计师们提供<strong>免费</strong>的png」</p>
+<blockquote>
+<p>电商设计师想要把png网上的东西使用到工作中，需要下载下来，在署名的前提下修改后——为自己的修改版搞一个许可，这个许可必要的要求之一就是能够商业用途。（这一步许可的声明一般都是闷声发大财）</p>
+</blockquote>
+<p>现在回过头来看网站的声明就不是那么矛盾了。</p>
+<blockquote>
+<p>该网站提供的素材是希望大家下载以后使用在商业中的。但是不允许有人把东西原封不动的下下来，然后原封不动一模一样的贩卖获利。（这样他们辛苦抠图做什么呢？）</p>
+</blockquote>
+<p><strong>五花八门仔细斟酌的图库太多了，需要的下方参考资料尽情的查找</strong></p>
+<h1 id="参考资料-1"><a href="#参考资料-1" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li><a href="https://hao.uisdc.com/photo/" target="_blank" rel="noopener">优设高清图库列表</a></li>
+<li><a href="http://so.uisdc.com/cse/search?s=16162430669563244173&amp;q=%E5%85%8D%E8%B4%B9%20%E5%95%86%E7%94%A8%20%E5%9B%BE%E5%BA%93" target="_blank" rel="noopener">免费 商用 图库 搜索大法</a></li>
+<li><a href="https://www.zhihu.com/question/21757507" target="_blank" rel="noopener">你平时在哪找免费的可商业使用的图片素材？</a></li>
+<li><a href="https://www.zhihu.com/question/23914832" target="_blank" rel="noopener">平面设计师是如何找素材的？</a></li>
+</ul>
+
+        
+                <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
+                    <p><strong>
+                         
+                            本文遵循<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">「 署名-非商业性使用-相同方式共享 4.0 国际 」</a>协议
+                        </strong>
+                        <br>
+                        <strong>本文链接：</strong><a href="https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/">https://tonightleftyou.github.io/2018/05/12/the_guide_of_free_picture_use/</a>
+                    </p>
+                </blockquote>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2018/12/12/the_reading_mark_about_game_ui/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/05/05/learning_linux_command_rm/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="http://wx4.sinaimg.cn/mw690/006RSAf8ly8fgt6m7uhqxj30fs0fsmy7.jpg" alt="TLY's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        youremail@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/GNU-Linux/">GNU/Linux<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/杂谈/">杂谈<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书笔记/">读书笔记<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/gallery" title="作品集">
+                
+                    <i class="material-icons sidebar-material-icons">apps</i>
+                
+                作品集
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="关于我">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于我
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>TLY的个人博客
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#ffbcf3'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #ffbcf3, 0 0 15px #ffbcf3'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#ffbcf3',
+        'border-left-color': '#ffbcf3'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
