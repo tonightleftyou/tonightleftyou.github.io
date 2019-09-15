@@ -43,7 +43,7 @@
     
     <title>
         
-            分类: 读书笔记 | 
+            浅谈设计资料的管理 | 
         
         TLY的个人博客
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="保持对世界的好奇心">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",work">
     <meta name="theme-color" content="#ffbcda">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="TLY的个人博客">
-    <meta name="msapplication-starturl" content="https://tonightleftyou.github.io/categories/读书笔记/">
+    <meta name="msapplication-starturl" content="https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/">
     <meta name="msapplication-navbutton-color" content="#ffbcda">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="TLY的个人博客">
@@ -230,13 +230,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://tonightleftyou.github.io/categories/读书笔记/">
+    <meta property="og:url" content="https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="分类: 读书笔记 | TLY的个人博客">
+    <meta property="og:title" content="浅谈设计资料的管理 | TLY的个人博客">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="保持对世界的好奇心">
-    
+    <meta property="og:article:tag" content="work"> 
 
+    
+        <meta property="article:published_time" content="Fri Sep 13 2019 22:03:44 GMT+0800">
+        <meta property="article:modified_time" content="Mon Sep 16 2019 04:35:46 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://tonightleftyou.github.io/categories/读书笔记/index.html" />
+        <link rel="canonical" href="https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/index.html",
+    "headline": "浅谈设计资料的管理",
+    "datePublished": "Fri Sep 13 2019 22:03:44 GMT+0800",
+    "dateModified": "Mon Sep 16 2019 04:35:46 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "TLY",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://wx4.sinaimg.cn/mw690/006RSAf8ly8fgt6m7uhqxj30fs0fsmy7.jpg"
+        },
+        "description": "好好学习，天天向上"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TLY的个人博客",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",work",
+    "description": "保持对世界的好奇心",
+}
+</script>
 
 
     
@@ -292,101 +325,297 @@ margin-bottom: 24px;
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#为什么要管理设计资料"><span class="post-toc-number">1.</span> <span class="post-toc-text">为什么要管理设计资料</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#项目初期启动阶段：灵感收集-风格面板"><span class="post-toc-number">2.</span> <span class="post-toc-text">项目初期启动阶段：灵感收集/风格面板</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#项目进行阶段：稿件的版本控制"><span class="post-toc-number">3.</span> <span class="post-toc-text">项目进行阶段：稿件的版本控制</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#项目的安全措施：云端同步备份"><span class="post-toc-number">4.</span> <span class="post-toc-text">项目的安全措施：云端同步备份</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#总结"><span class="post-toc-number">5.</span> <span class="post-toc-text">总结</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/12/12/the_reading_mark_about_game_ui/">《游戏UI:修炼之道》读书笔记</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-《游戏UI：修炼之道》师维 著
-
-全书五章，抽取了2.5章的内容做梳理。剩下的基本...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/12/12/the_reading_mark_about_game_ui/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="http://wx4.sinaimg.cn/mw690/006RSAf8ly8fgt6m7uhqxj30fs0fsmy7.jpg" width="44px" height="44px" alt="TLY's avatar">
-            </div>
-            <div>
-                <strong>TLY</strong>
-                <span>12月 12, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/读书笔记/">读书笔记</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                浅谈设计资料的管理
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="http://wx4.sinaimg.cn/mw690/006RSAf8ly8fgt6m7uhqxj30fs0fsmy7.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>TLY</strong>
+        <span>9月 13, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/work/">work</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=浅谈设计资料的管理&url=https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/index.html&pic=https://tonightleftyou.github.io/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=浅谈设计资料的管理&url=https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/index.html&via=TLY" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="为什么要管理设计资料"><a href="#为什么要管理设计资料" class="headerlink" title="为什么要管理设计资料"></a>为什么要管理设计资料</h3><p>因为是刚需。</p>
+<ul>
+<li>绘制图像从互联网上下载下来的笔刷纹理；</li>
+<li>日积月累的免费优质高清图像；</li>
+<li>从各种地方收集的灵感图像；</li>
+<li>…</li>
+</ul>
+<p>以及从更重要的工作流程上考虑：</p>
+<ul>
+<li>项目稿件的版本管理；</li>
+<li>资料的安全容灾策略；</li>
+</ul>
+<p>因此，本篇文章将从流程来说明如何管理设计资料。</p>
+<h3 id="项目初期启动阶段：灵感收集-风格面板"><a href="#项目初期启动阶段：灵感收集-风格面板" class="headerlink" title="项目初期启动阶段：灵感收集/风格面板"></a>项目初期启动阶段：灵感收集/风格面板</h3><p>相信大多数项目的启动初期，设计师都有一个和各方面沟通的过程，虽然大多数时候避免不了「大气，高端，上档次」这样的让人摸后脑勺的需求。但是多少是会有一个大概的概念的：<br><a href="http://naotu.baidu.com/file/d756938861a1522bf744f3ee8db097b8?token=d9bf2e6b85820203" target="_blank" rel="noopener">一个描述项目初期印象的导图</a></p>
+<p>从导图中可以理出一个思路：</p>
+<ul>
+<li>寻找整理同类产品的界面参考</li>
+<li>尽量收集符合感觉气质的各种图片</li>
+<li>准备各种设计阶段需要用到的素材，比如笔刷/图标/纹理</li>
+</ul>
+<p>那么这里的工具需求是：<br>如何存储这些图片，方便在项目的任何阶段都可以快速的翻阅？</p>
+<ol>
+<li><strong>本地文件夹</strong>：这是一个传统的方法，需要分门别类的命名查找，最大的问题是比较繁琐，每一张都需要保存，命名，日积月累占据硬盘空间。</li>
+<li><strong>pin/花瓣</strong> 等工具：这是很多设计师都在采用的办法，这样的图片站点本身就是大量的灵感库，可以很快速的从别人的整理中得到启发。唯一的坏处是：如果网站被墙或者下线，你的东西就等于消失了。——pin目前在国内是不可访问状态，花瓣网也曾经出现过一个月无法访问的情况。</li>
+<li><strong>eagle</strong>：这是一款本地软件，采用了花瓣+本地文件树管理的结构，同时支持大量的批操作——可以说完美的解决了初期的设计资料管理需求，相对于上面两个方法，可以算得上的缺点仅仅只有需要付费，以及占据空间这两点。</li>
+</ol>
+<p>目前我采用的是第二种和第三种办法并行，第二种作为粗略整理，第三种作为最后的整理。</p>
+<h3 id="项目进行阶段：稿件的版本控制"><a href="#项目进行阶段：稿件的版本控制" class="headerlink" title="项目进行阶段：稿件的版本控制"></a>项目进行阶段：稿件的版本控制</h3><p>一旦设计工作开启，不可避免的是版本控制问题，这一方面，市面上有好几种解决策略。</p>
+<ol>
+<li><p>abstract 为首的基于git的版本控制软件，这一类基本要求付费，优势是确实严格按照产品设计的原理来打造软件。——某种程度说是团队项目进度更新管理工具也是可以的。</p>
+<p> 对于已经在使用其他团队项目管理工具（比如jira/tpad/zendao/redmine/teambition）的团队有一定的迁移成本。——在真实的项目开发环境中，很少有软件能够接管一支队伍从头到尾所有需求的。</p>
+<p> 如果并不涉及多个设计师协同工作或者设计作为整个开发中特别强调的一环，这样的工具有一点杀鸡用牛刀的感觉。</p>
+</li>
+<li><p>群晖/坚果云/百度云 等网盘性质的团队套餐，这些操作上更简单，功能上也更强调配合已经有的流程——对于一些中型大型设计团队，是典型的版本控制选择。这样的套餐一般需要付费，从体验上，是非常优秀的仓库，并不具备太多的协作功能。最主要的是，他们主要解决的是设计师之间的版本管理问题。</p>
+</li>
+<li><p>本地文件夹——这是一种非常常见的策略，设计师需要自己管理好，交接给别人的时候也是打包。在设计师人数非常少，协作需求并不多的时候，足够使用，坏处是：依赖设计师的良好习惯，协作依赖其他工具的交流，以及多个版本的冗余比较占据空间。</p>
+</li>
+<li><p>蓝湖——基于设计稿的对接平台，对团队来说，仅仅看到的是已经确认的版本。而对设计师来说，同一页面的所有历史版本都可以切换查看。另外平台也提供了产品经理的原型各个页面的各个版本。以及一些评论批注提醒功能。——功能上没有全面引入git管理，面向的对象也是主要以产品和设计两个角度的对接来考虑。</p>
+</li>
+</ol>
+<p>笔者一开始采用的是方法3，但是随着团队协作人员的增加以及多个需求并行的情况越发的多起来（特别是多数情况都是远程协作），发现引入一个可以恰好不打乱原本的流程，而又可以方便团队的工具势在必行。经过多方比较：</p>
+<ul>
+<li>给前端开发人员提供便捷的自动标注；（像素大师/sketch measure / 墨刀 / 蓝湖 / xiaopiu 均可以）</li>
+<li>和产品经理能够便捷减负的对接稿件更新；（墨刀/蓝湖/xiaopiu）</li>
+<li>便于设计师查看历史版本；（蓝湖）</li>
+</ul>
+<p>于是接入了蓝湖，唯一需要担心的是这一套东西可能本地部署更安全一些。</p>
+<h3 id="项目的安全措施：云端同步备份"><a href="#项目的安全措施：云端同步备份" class="headerlink" title="项目的安全措施：云端同步备份"></a>项目的安全措施：云端同步备份</h3><p>你永远也不知道什么时候会失去你的电脑。——by 鲁迅没这么说过</p>
+<ul>
+<li><p>即便是mac 自带的time machine ，精度也仅仅是一个小时。——还要祈祷空间足够大，能够塞下那么多的备份。</p>
+</li>
+<li><p>如果遭遇了“电脑损坏需要维修至少等待一个星期+稿件两天后需要提交”这样的至暗时刻。——跳楼吧，还可以享受下蹦极的快乐。</p>
+</li>
+</ul>
+<hr>
+<p>比较了市面上的几款网盘应用，结合我国的特殊网络情况（dropbox啥的不好用），以及个人钱包的厚度（群晖之光照耀我心）。</p>
+<p>我选择了坚果云作为资料的备份方案。</p>
+<p>并不需要打开什么网页软件拖拽/选中 上传。仅仅需要将文件夹路径录入，之后付费日子里的文件夹下的变动，以分钟级别的速度自动同步到云端。并自动记录每个变动的历史版本（最多可以查看同一文件的最近100个版本）</p>
+<p>将eagle的仓库路径，工作文档路径全部录入。——即便发生车祸电脑碎成了渣渣：</p>
+<ol>
+<li>立马买/借/租 一台mac；</li>
+<li>安装好sketch ，eagle ， 坚果云，并登陆对应账号；</li>
+<li>一键同步需要的内容；</li>
+<li>愉快的开始一天的工作吧。<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3></li>
+</ol>
+<ul>
+<li>付费不是缺点，免费的可能是最贵的。</li>
+<li>安全备份不做，对不起队友对不起自己。</li>
+</ul>
+
+        
+                <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
+                    <p><strong>
+                         
+                            本文遵循<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">「 署名-非商业性使用-相同方式共享 4.0 国际 」</a>协议
+                        </strong>
+                        <br>
+                        <strong>本文链接：</strong><a href="https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/">https://tonightleftyou.github.io/2019/09/13/how_to_manage_design_resources/</a>
+                    </p>
+                </blockquote>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/07/28/Nice_tools_for_work/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
